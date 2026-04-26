@@ -1,0 +1,331 @@
+{
+  "divisions": {
+    "Austin": {
+      "communities": {
+        "Vue at Evelyn": {
+          "tax_rate": 0.01932,
+          "investment_tax_rate": 0.02415,
+          "hoa_monthly": 0,
+          "insurance_monthly": 100,
+          "insurance_annual": 1200,
+          "notes": "Austin, TX 78754",
+          "default_price": 350000
+        },
+        "Lux at Evelyn": {
+          "tax_rate": 0.01932,
+          "investment_tax_rate": 0.02415,
+          "hoa_monthly": 0,
+          "insurance_monthly": 100,
+          "insurance_annual": 1200,
+          "notes": "Austin, TX 78754",
+          "default_price": 350000
+        },
+        "Aire at Evelyn": {
+          "tax_rate": 0.01932,
+          "investment_tax_rate": 0.02415,
+          "hoa_monthly": 0,
+          "insurance_monthly": 100,
+          "insurance_annual": 1200,
+          "notes": "Austin, TX 78754",
+          "default_price": 350000
+        },
+        "Heights at San Gabriel": {
+          "tax_rate": 0.01454,
+          "investment_tax_rate": 0.018175,
+          "hoa_monthly": 95,
+          "insurance_monthly": 82,
+          "insurance_annual": 984,
+          "notes": "Georgetown, TX 78628",
+          "default_price": 388340
+        },
+        "Pinnacle at Cottonwood Creek": {
+          "tax_rate": 0.0153,
+          "investment_tax_rate": 0.019125,
+          "hoa_monthly": 70,
+          "insurance_monthly": 71,
+          "insurance_annual": 852,
+          "notes": "San Marcos, TX 78666",
+          "default_price": 286990
+        },
+        "The Hollows at Avery Centre": {
+          "tax_rate": 0.01559,
+          "investment_tax_rate": 0.0194875,
+          "hoa_monthly": 62.08,
+          "insurance_monthly": 73,
+          "insurance_annual": 876,
+          "notes": "Round Rock, TX 78665",
+          "default_price": 369990
+        },
+        "The Ridge at Trinity Ranch": {
+          "tax_rate": 0.023244,
+          "investment_tax_rate": 0.029055,
+          "hoa_monthly": 55,
+          "insurance_monthly": 80,
+          "insurance_annual": 960,
+          "notes": "Elgin, TX 78621",
+          "default_price": 283370
+        },
+        "The Overlook at Trinity Ranch": {
+          "tax_rate": 0.023244,
+          "investment_tax_rate": 0.029055,
+          "hoa_monthly": 52,
+          "insurance_monthly": 65,
+          "insurance_annual": 780,
+          "notes": "Elgin, TX 78621",
+          "default_price": 328990
+        },
+        "The Glen at Stallion Run": {
+          "tax_rate": 0.023,
+          "investment_tax_rate": 0.02875,
+          "hoa_monthly": 30,
+          "insurance_monthly": 83,
+          "insurance_annual": 996,
+          "notes": "Buda, TX 78610",
+          "default_price": 347800
+        },
+        "The Meadows at Stallion Run": {
+          "tax_rate": 0.023,
+          "investment_tax_rate": 0.02875,
+          "hoa_monthly": 30,
+          "insurance_monthly": 70,
+          "insurance_annual": 840,
+          "notes": "Buda, TX 78610",
+          "default_price": 292990
+        },
+        "Eastwood at Sonterra": {
+          "tax_rate": 0.0209,
+          "investment_tax_rate": 0.026125,
+          "hoa_monthly": 26,
+          "insurance_monthly": 67,
+          "insurance_annual": 804,
+          "notes": "Jarrell, TX 76537",
+          "default_price": 268990
+        }
+      }
+    },
+    "Dallas": {
+      "communities": {
+        "Ambergrove": {
+          "tax_rate": 0.016261,
+          "investment_tax_rate": 0.020326,
+          "hoa_monthly": 37.5,
+          "insurance_monthly": 117,
+          "insurance_annual": 1404,
+          "notes": "Royse City, TX",
+          "default_price": 304900
+        },
+        "Courtland Place": {
+          "tax_rate": 0.024,
+          "investment_tax_rate": 0.03,
+          "hoa_monthly": 29.16,
+          "insurance_monthly": 100,
+          "insurance_annual": 1200,
+          "notes": "Dallas area",
+          "default_price": 306900
+        },
+        "Hickory Hill": {
+          "tax_rate": 0.01576,
+          "investment_tax_rate": 0.0197,
+          "hoa_monthly": 37.5,
+          "insurance_monthly": 149,
+          "insurance_annual": 1788,
+          "notes": "Dallas area",
+          "default_price": 334900
+        },
+        "Lone Oak": {
+          "tax_rate": 0.01976,
+          "investment_tax_rate": 0.0247,
+          "hoa_monthly": 55.83,
+          "insurance_monthly": 167,
+          "insurance_annual": 2004,
+          "notes": "Alvarado, TX 76009",
+          "default_price": 321900
+        },
+        "Middlefield Village": {
+          "tax_rate": 0.017814,
+          "investment_tax_rate": 0.022267,
+          "hoa_monthly": 39.58,
+          "insurance_monthly": 89,
+          "insurance_annual": 1068,
+          "notes": "Dallas, TX 75253",
+          "default_price": 316900
+        },
+        "MiraVerde": {
+          "tax_rate": 0.01885,
+          "investment_tax_rate": 0.023562,
+          "hoa_monthly": 60,
+          "insurance_monthly": 148.75,
+          "insurance_annual": 1785,
+          "notes": "MiraVerde Community",
+          "default_price": 323900
+        },
+        "Overland Grove - Prestige Collection": {
+          "tax_rate": 0.016988,
+          "investment_tax_rate": 0.021234,
+          "hoa_monthly": 100,
+          "insurance_monthly": 164,
+          "insurance_annual": 1968,
+          "notes": "Forney, TX 75126",
+          "default_price": 407900
+        },
+        "Overland Grove - Classic Collection": {
+          "tax_rate": 0.016988,
+          "investment_tax_rate": 0.021234,
+          "hoa_monthly": 100,
+          "insurance_monthly": 113,
+          "insurance_annual": 1356,
+          "notes": "Forney, TX 75126",
+          "default_price": 367900
+        },
+        "Pennsylvania Ave": {
+          "tax_rate": 0.012855,
+          "investment_tax_rate": 0.016069,
+          "hoa_monthly": 0,
+          "insurance_monthly": 149,
+          "insurance_annual": 1788,
+          "notes": "Springtown, TX 76082",
+          "default_price": 320900
+        },
+        "Sperling Farms": {
+          "tax_rate": 0.016797,
+          "investment_tax_rate": 0.020996,
+          "hoa_monthly": 12.5,
+          "insurance_monthly": 82,
+          "insurance_annual": 984,
+          "notes": "Ferris, TX",
+          "default_price": 299900
+        },
+        "Summerwood Estates": {
+          "tax_rate": 0.016261,
+          "investment_tax_rate": 0.020326,
+          "hoa_monthly": 57.92,
+          "insurance_monthly": 113,
+          "insurance_annual": 1356,
+          "notes": "Red Oak, TX 75154",
+          "default_price": 385900
+        }
+      }
+    },
+    "San Antonio": {
+      "communities": {
+        "Agave": {
+          "tax_rate": 0.01464,
+          "investment_tax_rate": 0.0183,
+          "hoa_monthly": 25,
+          "insurance_monthly": 80,
+          "insurance_annual": 960,
+          "notes": "San Antonio, TX 78222",
+          "default_price": 259990
+        },
+        "Applewhite Meadows": {
+          "tax_rate": 0.0196,
+          "investment_tax_rate": 0.0245,
+          "hoa_monthly": 39.58,
+          "insurance_monthly": 70,
+          "insurance_annual": 840,
+          "notes": "San Antonio, TX 78224",
+          "default_price": 270465
+        },
+        "Cinco Lakes": {
+          "tax_rate": 0.016024,
+          "investment_tax_rate": 0.020031,
+          "hoa_monthly": 37.5,
+          "insurance_monthly": 87,
+          "insurance_annual": 1044,
+          "notes": "San Antonio, TX 78252",
+          "default_price": 329990
+        },
+        "Hacienda": {
+          "tax_rate": 0.01896,
+          "investment_tax_rate": 0.0237,
+          "hoa_monthly": 40.33,
+          "insurance_monthly": 73,
+          "insurance_annual": 876,
+          "notes": "San Antonio, TX 78221",
+          "default_price": 265295
+        },
+        "Hiddenbrooke": {
+          "tax_rate": 0.01544,
+          "investment_tax_rate": 0.0193,
+          "hoa_monthly": 35,
+          "insurance_monthly": 73,
+          "insurance_annual": 876,
+          "notes": "San Antonio area",
+          "default_price": 274990
+        },
+        "Homestead": {
+          "tax_rate": 0.01632,
+          "investment_tax_rate": 0.0204,
+          "hoa_monthly": 104,
+          "insurance_monthly": 89,
+          "insurance_annual": 1068,
+          "notes": "San Antonio area",
+          "default_price": 539990
+        },
+        "Mesa Vista": {
+          "tax_rate": 0.019577,
+          "investment_tax_rate": 0.024471,
+          "hoa_monthly": 33.33,
+          "insurance_monthly": 73,
+          "insurance_annual": 876,
+          "notes": "San Antonio, TX 78073",
+          "default_price": 275890
+        },
+        "Millican Grove": {
+          "tax_rate": 0.01816,
+          "investment_tax_rate": 0.0227,
+          "hoa_monthly": 26.46,
+          "insurance_monthly": 83,
+          "insurance_annual": 996,
+          "notes": "San Antonio, TX 78109",
+          "default_price": 243990
+        },
+        "Park Place": {
+          "tax_rate": 0.01896,
+          "investment_tax_rate": 0.0237,
+          "hoa_monthly": 37.5,
+          "insurance_monthly": 75,
+          "insurance_annual": 900,
+          "notes": "San Antonio area",
+          "default_price": 279990
+        },
+        "Rosemont Hill": {
+          "tax_rate": 0.018318,
+          "investment_tax_rate": 0.022897,
+          "hoa_monthly": 92,
+          "insurance_monthly": 71,
+          "insurance_annual": 852,
+          "notes": "San Antonio, TX 78254 | Gated",
+          "default_price": 259990
+        },
+        "Senna": {
+          "tax_rate": 0.01832,
+          "investment_tax_rate": 0.0229,
+          "hoa_monthly": 41.66,
+          "insurance_monthly": 78,
+          "insurance_annual": 936,
+          "notes": "San Antonio area",
+          "default_price": 368990
+        },
+        "Spring Creek": {
+          "tax_rate": 0.01584,
+          "investment_tax_rate": 0.0198,
+          "hoa_monthly": 33.33,
+          "insurance_monthly": 79,
+          "insurance_annual": 948,
+          "notes": "San Antonio, TX 78245",
+          "default_price": 287730
+        },
+        "Summerlin": {
+          "tax_rate": 0.01472,
+          "investment_tax_rate": 0.0184,
+          "hoa_monthly": 33.33,
+          "insurance_monthly": 74,
+          "insurance_annual": 888,
+          "notes": "San Antonio, TX 78253",
+          "default_price": 279990
+        }
+      }
+    }
+  }
+}
