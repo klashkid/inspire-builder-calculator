@@ -1,12 +1,21 @@
 from flask import Flask, render_template, jsonify
 import json
+import os
 
 app = Flask(__name__)
 
-# Load communities data
-with open('communities.json', encoding='utf-8') as f:
-    communities_data = json.load(f)
+# More robust JSON loading
+json_path = os.path.join(os.path.dirname(__file__), 'communities.json')
 
+try:
+    with open(json_path, encoding='utf-8') as f:
+        communities_data = json.load(f)
+    print("✅ communities.json loaded successfully")
+except Exception as e:
+    print(f"❌ Error loading communities.json: {e}")
+    communities_data = {}
+
+# Rest of your routes...
 @app.route('/')
 def index():
     return render_template('index.html')
@@ -26,6 +35,3 @@ def get_community_data(division, community):
         return jsonify({"error": "Community not found"})
     except:
         return jsonify({"error": "Data not found"})
-
-if __name__ == '__main__':
-    app.run(host='0.0.0.0', port=5000)
