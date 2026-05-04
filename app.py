@@ -11,9 +11,8 @@ JSON_PATH = os.path.join(BASE_DIR, 'communities.json')
 try:
     with open(JSON_PATH, encoding='utf-8') as f:
         data = json.load(f)
-    # Handle the new nested structure
     communities_data = data.get("divisions", {})
-    print(f"✅ Loaded {len(communities_data)} divisions successfully")
+    print(f"✅ Loaded {len(communities_data)} divisions")
 except Exception as e:
     print(f"❌ Error loading communities.json: {e}")
     communities_data = {}
@@ -26,7 +25,6 @@ def index():
 def get_communities(division):
     div_data = communities_data.get(division, {})
     communities = div_data.get("communities", {})
-    print(f"Division '{division}' requested → {len(communities)} communities found")
     return jsonify(list(communities.keys()))
 
 @app.route('/get_community_data/<division>/<path:community>')
@@ -36,8 +34,8 @@ def get_community_data(division, community):
         if comm:
             return jsonify(comm)
         return jsonify({"error": "Community not found"})
-    except Exception as e:
-        return jsonify({"error": str(e)})
+    except:
+        return jsonify({"error": "Data not found"})
 
 if __name__ == '__main__':
-    app.run(host='0.0.0.0', port=5000)
+    app.run(debug=True)
