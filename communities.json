@@ -1,5 +1,27 @@
 {
   "divisions": {
+    "Charlotte": {
+      "communities": {
+        "Brightside Townes": {
+          "tax_rate": 0.0195,
+          "investment_tax_rate": 0.0245,
+          "hoa_monthly": 85,
+          "insurance_monthly": 95,
+          "insurance_annual": 1140,
+          "notes": "Charlotte, NC area",
+          "default_price": 320000
+        },
+        "Cadia Village": {
+          "tax_rate": 0.0195,
+          "investment_tax_rate": 0.0245,
+          "hoa_monthly": 75,
+          "insurance_monthly": 90,
+          "insurance_annual": 1080,
+          "notes": "Charlotte, NC area",
+          "default_price": 310000
+        }
+      }
+    },
     "Austin": {
       "communities": {
         "Vue at Evelyn": {
