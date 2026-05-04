@@ -171,6 +171,7 @@
                 </div>
             </div>
 
+            <!-- Cash to Close - Fixed Spacing -->
             <div class="mt-12 pt-8 border-t">
                 <h3 class="text-2xl font-semibold mb-6 text-center">Estimated Cash to Close</h3>
                 <div class="bg-zinc-50 p-8 rounded-3xl">
@@ -185,18 +186,15 @@
                         </div>
                         <div class="text-center">
                             <p class="text-sm text-gray-600">Discount Points</p>
-                            <div class="relative">
-                                <span class="absolute left-4 top-1/2 -translate-y-1/2 text-2xl font-bold text-gray-800">$</span>
-                                <input type="number" id="discount_points" value="0" step="100" 
-                                       class="w-full text-center text-2xl font-bold bg-transparent focus:outline-none text-gray-800 pl-8" 
-                                       oninput="calculate()">
-                            </div>
+                            <p id="discount_points_display" class="text-2xl font-bold text-gray-800">$0</p>
+                            <input type="number" id="discount_points" value="0" step="100" class="hidden" oninput="calculate()">
                         </div>
                         <div class="text-center border-t md:border-t-0 md:border-l border-gray-300 pt-6 md:pt-0 md:pl-6">
                             <p class="text-sm font-semibold text-gray-700">Buyer Funds Needed</p>
                             <p id="buyer_funds_needed" class="text-3xl font-bold text-gray-900">$0</p>
                         </div>
                     </div>
+
                     <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
                         <div class="bg-emerald-50 p-6 rounded-2xl text-center">
                             <p class="text-sm text-emerald-700">Seller Credit</p>
@@ -204,14 +202,11 @@
                         </div>
                         <div class="bg-emerald-50 p-6 rounded-2xl text-center">
                             <p class="text-sm text-emerald-700">Lender Credit</p>
-                            <div class="relative">
-                                <span class="absolute left-4 top-1/2 -translate-y-1/2 text-2xl font-bold text-emerald-600">$</span>
-                                <input type="number" id="lender_credit" value="0" step="100" 
-                                       class="w-full text-center text-2xl font-bold bg-transparent focus:outline-none text-emerald-600 pl-8" 
-                                       oninput="calculate()">
-                            </div>
+                            <p id="lender_credit_display" class="text-2xl font-bold text-emerald-600">$0</p>
+                            <input type="number" id="lender_credit" value="0" step="100" class="hidden" oninput="calculate()">
                         </div>
                     </div>
+
                     <div class="mt-8 pt-6 border-t border-emerald-200 text-center">
                         <p class="text-sm font-semibold text-emerald-700">Estimated Cash to Close</p>
                         <p id="cash_to_close" class="text-4xl font-bold text-emerald-700">$0</p>
@@ -560,6 +555,10 @@
             document.getElementById('buyer_funds_needed').textContent = '$' + Math.round(buyerFundsNeeded).toLocaleString();
             document.getElementById('cash_seller_credit').textContent = sellerCredit > 0 ? '-$' + Math.round(sellerCredit).toLocaleString() : '$0';
             document.getElementById('cash_to_close').textContent = '$' + Math.round(Math.max(0, cashToClose)).toLocaleString();
+
+            // Clean displays for Discount Points and Lender Credit
+            document.getElementById('discount_points_display').textContent = '$' + discountPoints.toLocaleString();
+            document.getElementById('lender_credit_display').textContent = '$' + lenderCredit.toLocaleString();
         }
 
         function resetForm() {
